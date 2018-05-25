@@ -14,7 +14,7 @@ class PlayListener {
      */
 
     public function __construct() {
-        //
+        # return null;
     }
 
     /**
@@ -25,6 +25,6 @@ class PlayListener {
      */
 
     public function handle(Play $event) {
-        //
+        # return null;
     }
 }
