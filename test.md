@@ -83,3 +83,4 @@ This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md
     * Learned how dock works how to create and cofigure docker containers and how it "hard" to work with on a windows.
 * Special thansk for Lucas and Páfu who encoraged me to try it and do my best
 * 
+

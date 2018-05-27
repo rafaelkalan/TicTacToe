@@ -40,7 +40,6 @@ class GameOver implements ShouldBroadcast {
         * broadcast the game
     */
     public function broadOn() {
-        // wtf is going on here 
         return new Channel('game-channel-' .$this->gameId . '-' . $this->$userId);
     }
 }

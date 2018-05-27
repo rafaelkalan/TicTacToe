@@ -7,8 +7,7 @@
 
         <div class="list-group list-group-flush">
             <template v-if="matches.length">
-                <div v-for="match in matches"
-                     class="list-group-item text-body d-flex justify-content-between ">
+                <div v-for="match in matches" :key=match.id class="list-group-item text-body d-flex justify-content-between ">
                     {{ match.name }}
                     <div class="" role="group">
                         <button type="button" class="btn btn-info" @click="showMatch(match.id)">

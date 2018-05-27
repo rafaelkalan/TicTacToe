@@ -47568,7 +47568,6 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 //
 //
 //
-//
 
 /* harmony default export */ __webpack_exports__["default"] = ({
     props: ['matches', 'loading'],
@@ -47610,6 +47609,7 @@ var render = function() {
               return _c(
                 "div",
                 {
+                  key: match.id,
                   staticClass:
                     "list-group-item text-body d-flex justify-content-between "
                 },
