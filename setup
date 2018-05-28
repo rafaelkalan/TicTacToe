@@ -15,7 +15,7 @@ fi
 # Composer dependencies
 echo "### Installing composer dependencies ###"
 docker run --rm --interactive --tty \
-    --volume $PWD:/app \
+    --volume ${PWD,,} \
     composer install
 
 # NPM dependencies
